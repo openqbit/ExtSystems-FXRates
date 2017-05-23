@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.FXRates.Common.Models
 {
-    class Class2
+    public class FxRate
     {
+        int Id { get; set; }
+
     }
 }
