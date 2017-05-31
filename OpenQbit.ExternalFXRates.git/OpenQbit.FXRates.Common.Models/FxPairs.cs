@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.FXRates.Common.Models
 {
-    public class FxRate
+    class FxPairs
     {
-        int pairId { get; set; }
-         DateTime dateTime { get; set; }
-        double byeingValue { get; set; }
-        double sellingValue { get; set; }
+        string fxPairID { get; set; }
+        string name { get; set; }
+        string pCurrence { get; set; }
+        string scuruncy { get; set; }
     }
 }
