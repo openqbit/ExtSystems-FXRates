@@ -12,5 +12,6 @@ namespace OpenQbit.FXRates.Common.Models
          DateTime dateTime { get; set; }
         double byeingValue { get; set; }
         double sellingValue { get; set; }
+       
     }
 }
